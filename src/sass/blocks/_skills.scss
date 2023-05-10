@@ -1,0 +1,25 @@
+.skills {
+	padding: 50px 0;
+
+	&__items {
+		display: grid;
+		grid-template: repeat(2, 270px) / repeat(4, 270px);
+		gap: 30px;
+	}
+
+	&__item {
+		border: 1px solid black;
+		padding: 25px;
+	}
+
+	&__descr {
+		strong {
+			display: block;
+			font-weight: 700;
+			font-size: 14px;
+		}
+
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
