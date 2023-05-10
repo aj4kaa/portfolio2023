@@ -1,23 +1,388 @@
 @font-face {
-	font-family: 'Poppins';
-	src: url('../fonts/PoppinsBold.eot');
-	src: url('../fonts/PoppinsBold.eot') format('embedded-opentype'),
-		url('../fonts/PoppinsBold.woff2') format('woff2'),
-		url('../fonts/PoppinsBold.woff') format('woff'),
-		url('../fonts/PoppinsBold.ttf') format('truetype'),
-		url('../fonts/PoppinsBold.svg#PoppinsBold') format('svg');
-	font-weight: 700;
-	font-style: normal;
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratBold.eot');
+	src: url('../fonts/MontserratBold.eot') format('embedded-opentype'),
+			 url('../fonts/MontserratBold.woff2') format('woff2'),
+			 url('../fonts/MontserratBold.woff') format('woff'),
+			 url('../fonts/MontserratBold.ttf') format('truetype'),
+			 url('../fonts/MontserratBold.svg#MontserratBold') format('svg');
+			 font-weight: 700;
+			 font-style: normal;
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url('../fonts/PoppinsMedium.eot');
-	src: url('../fonts/PoppinsMedium.eot') format('embedded-opentype'),
-		url('../fonts/PoppinsMedium.woff2') format('woff2'),
-		url('../fonts/PoppinsMedium.woff') format('woff'),
-		url('../fonts/PoppinsMedium.ttf') format('truetype'),
-		url('../fonts/PoppinsMedium.svg#PoppinsMedium') format('svg');
-	font-weight: 500;
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratMedium.eot');
+	src: url('../fonts/MontserratMedium.eot') format('embedded-opentype'),
+			 url('../fonts/MontserratMedium.woff2') format('woff2'),
+			 url('../fonts/MontserratMedium.woff') format('woff'),
+			 url('../fonts/MontserratMedium.ttf') format('truetype'),
+			 url('../fonts/MontserratMedium.svg#MontserratMedium') format('svg');
+			 font-weight: 500;
+			 font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?v94ext');
+	src: url('../fonts/icomoon.eot?v94ext#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?v94ext') format('truetype'),
+		url('../fonts/icomoon.woff?v94ext') format('woff'),
+		url('../fonts/icomoon.svg?v94ext#icomoon') format('svg');
+	font-weight: normal;
 	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Github:before {
+	content: "\e900";
+}
+
+.icon-Facebook:before {
+	content: "\e901";
+}
+
+.icon-Instagram:before {
+	content: "\e902";
+}
+
+.icon-Telegram:before {
+	content: "\e903";
+}
+
+.icon-Design:before {
+	content: "\e904";
+}
+
+.icon-Mobile-dev:before {
+	content: "\e905";
+}
+
+.icon-web-development:before {
+	content: "\e906";
+}
+
+.icon-designer:before {
+	content: "\e907";
+}
+
+.icon-Developer:before {
+	content: "\e908";
+}
+
+.icon-Courses:before {
+	content: "\e909";
+}
+
+.icon-University:before {
+	content: "\e90a";
+}
+
+.icon-Mongodb .path1:before {
+	content: "\e90b";
+	color: rgb(142, 113, 78);
+}
+
+.icon-Mongodb .path2:before {
+	content: "\e90c";
+	margin-left: -3.5556640625em;
+	color: rgb(68, 45, 34);
+}
+
+.icon-Mongodb .path3:before {
+	content: "\e90d";
+	margin-left: -3.5556640625em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-Mongodb .path4:before {
+	content: "\e90e";
+	margin-left: -3.5556640625em;
+	color: rgb(166, 163, 133);
+}
+
+.icon-Mongodb .path5:before {
+	content: "\e90f";
+	margin-left: -3.5556640625em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-Mongodb .path6:before {
+	content: "\e910";
+	margin-left: -3.5556640625em;
+	color: rgb(73, 157, 74);
+}
+
+.icon-Mongodb .path7:before {
+	content: "\e911";
+	margin-left: -3.5556640625em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-Mongodb .path8:before {
+	content: "\e912";
+	margin-left: -3.5556640625em;
+	color: rgb(88, 170, 80);
+}
+
+.icon-Nodejs .path1:before {
+	content: "\e913";
+	color: rgb(83, 158, 67);
+}
+
+.icon-Nodejs .path2:before {
+	content: "\e914";
+	margin-left: -1.599609375em;
+	color: rgb(51, 51, 51);
+}
+
+.icon-Nodejs .path3:before {
+	content: "\e915";
+	margin-left: -1.599609375em;
+	color: rgb(51, 51, 51);
+}
+
+.icon-Nodejs .path4:before {
+	content: "\e916";
+	margin-left: -1.599609375em;
+	color: rgb(51, 51, 51);
+}
+
+.icon-Nodejs .path5:before {
+	content: "\e917";
+	margin-left: -1.599609375em;
+	color: rgb(83, 158, 67);
+}
+
+.icon-Nodejs .path6:before {
+	content: "\e918";
+	margin-left: -1.599609375em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-Nodejs .path7:before {
+	content: "\e919";
+	margin-left: -1.599609375em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-Nodejs .path8:before {
+	content: "\e91a";
+	margin-left: -1.599609375em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-Nodejs .path9:before {
+	content: "\e91b";
+	margin-left: -1.599609375em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-Nodejs .path10:before {
+	content: "\e91c";
+	margin-left: -1.599609375em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-React .path1:before {
+	content: "\e91d";
+	color: rgb(255, 255, 255);
+}
+
+.icon-React .path2:before {
+	content: "\e91e";
+	margin-left: -1.107421875em;
+	color: rgb(83, 193, 222);
+}
+
+.icon-React .path3:before {
+	content: "\e91f";
+	margin-left: -1.107421875em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-React .path4:before {
+	content: "\e920";
+	margin-left: -1.107421875em;
+	color: rgb(83, 193, 222);
+}
+
+.icon-Jquery .path1:before {
+	content: "\e921";
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path2:before {
+	content: "\e922";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path3:before {
+	content: "\e923";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path4:before {
+	content: "\e924";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path5:before {
+	content: "\e925";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path6:before {
+	content: "\e926";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path7:before {
+	content: "\e927";
+	margin-left: -4.3779296875em;
+	color: rgb(26, 25, 24);
+}
+
+.icon-Jquery .path8:before {
+	content: "\e928";
+	margin-left: -4.3779296875em;
+	color: rgb(33, 96, 155);
+}
+
+.icon-Jquery .path9:before {
+	content: "\e929";
+	margin-left: -4.3779296875em;
+	color: rgb(33, 96, 155);
+}
+
+.icon-Jquery .path10:before {
+	content: "\e92a";
+	margin-left: -4.3779296875em;
+	color: rgb(33, 96, 155);
+}
+
+.icon-JS .path1:before {
+	content: "\e92b";
+	color: rgb(247, 223, 30);
+}
+
+.icon-JS .path2:before {
+	content: "\e92c";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-JS .path3:before {
+	content: "\e92d";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+
+.icon-css3 .path1:before {
+	content: "\e92e";
+	color: rgb(67, 83, 173);
+}
+
+.icon-css3 .path2:before {
+	content: "\e92f";
+	margin-left: -0.7080078125em;
+	color: rgb(72, 95, 181);
+}
+
+.icon-css3 .path3:before {
+	content: "\e930";
+	margin-left: -0.7080078125em;
+	color: rgb(237, 237, 237);
+}
+
+.icon-css3 .path4:before {
+	content: "\e931";
+	margin-left: -0.7080078125em;
+	color: rgb(16, 15, 13);
+}
+
+.icon-css3 .path5:before {
+	content: "\e932";
+	margin-left: -0.7080078125em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-html5 .path1:before {
+	content: "\e933";
+	color: rgb(229, 61, 32);
+}
+
+.icon-html5 .path2:before {
+	content: "\e934";
+	margin-left: -0.7080078125em;
+	color: rgb(241, 81, 35);
+}
+
+.icon-html5 .path3:before {
+	content: "\e935";
+	margin-left: -0.7080078125em;
+	color: rgb(237, 237, 237);
+}
+
+.icon-html5 .path4:before {
+	content: "\e936";
+	margin-left: -0.7080078125em;
+	color: rgb(237, 237, 237);
+}
+
+.icon-html5 .path5:before {
+	content: "\e937";
+	margin-left: -0.7080078125em;
+	color: rgb(16, 15, 13);
+}
+
+.icon-html5 .path6:before {
+	content: "\e938";
+	margin-left: -0.7080078125em;
+	color: rgb(16, 15, 13);
+}
+
+.icon-html5 .path7:before {
+	content: "\e939";
+	margin-left: -0.7080078125em;
+	color: rgb(16, 15, 13);
+}
+
+.icon-html5 .path8:before {
+	content: "\e93a";
+	margin-left: -0.7080078125em;
+	color: rgb(16, 15, 13);
+}
+
+.icon-html5 .path9:before {
+	content: "\e93b";
+	margin-left: -0.7080078125em;
+	color: rgb(255, 255, 255);
+}
+
+.icon-html5 .path10:before {
+	content: "\e93c";
+	margin-left: -0.7080078125em;
+	color: rgb(255, 255, 255);
 }

@@ -1,0 +1,32 @@
+.promo {
+	background: url("../img/promo.jpg") no-repeat 50%/cover;
+	min-height: 100vh;
+	padding-top: 205px;
+
+	&__title {
+		max-width: 535px;
+		margin-top: 10px;
+	}
+
+	&__subtitle {
+		position: relative;
+		padding-left: 10px;
+		z-index: 1;
+		@include before_circle;
+	}
+
+	&__btns {
+		margin-top: 25px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 1rem;
+	}
+
+	&__btn {
+		transition: color .2s, border .3s;
+		font-size: 14px;
+		font-weight: bold;
+		color: #000;
+	}
+}

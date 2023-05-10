@@ -1,0 +1,19 @@
+.btn {
+	height: 45px;
+	border: 2px solid transparent;
+	padding: 12px 25px;
+
+	&:hover {
+		background: transparent;
+		color: #fff;
+		border-color: var(--main-color);
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	}
+}
+
+.btn_active {
+	height: 45px;
+	background: var(--main-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	padding: 12px 25px;
+}

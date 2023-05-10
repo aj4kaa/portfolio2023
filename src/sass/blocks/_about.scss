@@ -1,0 +1,84 @@
+.about {
+	padding: 50px 0;
+
+	&__photo {
+		grid-area: photo;
+		align-self: center;
+		filter: drop-shadow(-10px -10px 0px #6ACEFF);
+	}
+
+	&__content {
+		padding-top: 6px;
+		margin-left: 70px;
+		grid-area: contetn;
+	}
+
+	&__title {
+		margin-top: 10px;
+		position: relative;
+		@include after_divider;
+	}
+
+	&__text {
+		margin-top: 25px;
+		line-height: 21px;
+		font-size: 14px;
+	}
+
+	&__wrap {
+		display: grid;
+		grid-template: repeat(2, minmax(300px, auto)) / repeat(3, 1fr);
+		grid-template-areas:
+			"photo contetn contetn"
+			"photo contetn contetn";
+
+	}
+
+	&__services {
+		margin-top: 40px;
+		display: grid;
+		grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+		gap: 40px 50px;
+	}
+
+	&__service {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	&__icon {
+		position: relative;
+		@include before_circle;
+
+		&::before {
+			left: -15px;
+		}
+	}
+
+	&__descr {
+		width: 100%;
+		text-align: justify;
+		margin-left: 20px;
+		font-size: 12px;
+		line-height: 18px;
+
+		strong {
+			display: block;
+			margin-bottom: 6px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 21px;
+		}
+	}
+
+	.about__icon span {
+		font-size: 3rem;
+	}
+
+	.title_fs16 {
+		padding-left: 10px;
+		position: relative;
+		@include before_circle;
+	}
+}
