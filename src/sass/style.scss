@@ -22,7 +22,7 @@ button:focus {
 
 .container {
 	position: relative;
-	width: 1170px;
+	width: 1140px;
 	margin: 0 auto;
 }
 
@@ -61,3 +61,8 @@ ul {
 @import "blocks/about";
 @import "blocks/exp";
 @import "blocks/skills";
+@import "blocks/portfolio";
+@import "blocks/price";
+@import "blocks/contacts";
+@import "blocks/forms";
+@import "blocks/media";

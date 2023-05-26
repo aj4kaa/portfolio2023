@@ -1,0 +1,66 @@
+.contacts {
+	padding: 60px 0 90px 0;
+
+	.title_fs16 {
+		padding-left: 10px;
+		position: relative;
+		@include before_circle;
+	}
+
+	&__title {
+		margin-top: 10px;
+		position: relative;
+		@include after_divider;
+	}
+
+	&__wrapper {
+		padding: 0 25px;
+		display: grid;
+		grid-template-columns: 400px 585px;
+		justify-content: space-between;
+	}
+
+	&__photo {
+		align-self: center;
+		filter: drop-shadow(-10px -10px 0px #6ACEFF);
+	}
+
+	&__socials {
+		margin-top: 25px;
+	}
+
+	&__text {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	&__links {
+		margin: 20px 0;
+	}
+
+	&__link svg.icon {
+		margin-right: 25px;
+		width: 30px;
+		height: 30px;
+		fill: #000;
+		transition: 0.25s;
+
+		&:hover {
+			fill: var(--main-color);
+		}
+	}
+
+	&__text-data {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.button_submit {
+		border: none;
+		font-weight: 700;
+		font-size: 14px;
+	}
+
+}

@@ -12,6 +12,21 @@
 	}
 }
 
+@mixin before_circle_center {
+	&::before {
+		content: "";
+		position: absolute;
+		border-radius: 50%;
+		z-index: -1;
+		top: -6px;
+		left: 50%;
+		transform: translate(-50%);
+		width: 36px;
+		height: 36px;
+		background: var(--main-color);
+	}
+}
+
 @mixin after_divider {
 	&::after {
 		content: "";
@@ -19,6 +34,20 @@
 		z-index: -1;
 		bottom: -5px;
 		left: 0;
+		background: var(--main-color);
+		width: 60px;
+		height: 3px;
+	}
+}
+
+@mixin after_divider_center {
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		bottom: -25px;
+		left: 50%;
+		transform: translateX(-50%);
 		background: var(--main-color);
 		width: 60px;
 		height: 3px;

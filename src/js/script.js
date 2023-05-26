@@ -24,5 +24,8 @@ window.onload = () => {
 		} else {
 			hideModal();
 		}
-	})
+	});
+	document.querySelectorAll('.skills__percent').forEach((e) => {
+		e.nextElementSibling.style.width = e.innerHTML;
+	});
 }

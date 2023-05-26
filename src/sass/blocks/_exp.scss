@@ -1,50 +1,13 @@
 .exp {
-	padding: 50px 0;
-
-	h2,
-	h3 {
-		text-align: center;
-	}
-
-	.title_fs16 {
-		position: relative;
-		@include before_circle;
-
-		&::before {
-			top: -6px;
-			left: 50%;
-			transform: translate(-50%);
-		}
-	}
-
-	h3.title {
-		margin-top: 10px;
-		position: relative;
-		@include after_divider;
-
-		&:after {
-			bottom: -25px;
-			left: 50%;
-			transform: translateX(-50%);
-		}
-	}
+	padding-bottom: 60px;
 
 	&__content {
 		margin-top: 85px;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		// grid-template: repeat(3, 1fr) / repeat(2, 1fr);
 		column-gap: 100px;
-		// grid-template-areas:
-		// 	"title title"
-		// 	"item item"
-		// 	"item item";
 	}
 
-	// &__education, &__work {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// }
 	&__wrap {
 		position: relative;
 		padding-left: 30px;
@@ -83,7 +46,6 @@
 	}
 
 	&__item {
-		// margin: 15px 0;
 		max-width: 375px;
 		position: relative;
 	}
@@ -97,6 +59,7 @@
 			left: -15px;
 			top: -10%;
 		}
+
 		&::after {
 			content: "";
 			position: absolute;
