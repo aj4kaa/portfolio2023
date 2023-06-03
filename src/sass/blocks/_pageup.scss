@@ -1,0 +1,31 @@
+.pageup {
+	display: none;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	animation: fadeInFromNone 0.5s ease-in-out;
+
+	svg.pulse-svg {
+		width: 30px;
+		height: 30px;
+		overflow: visible;
+		.circle {
+			opacity: 0;
+		}
+		.first-circle {
+			transform: scale(0.5);
+			transform-origin: center center;
+			animation: pulse-me 3s linear infinite;
+		}
+
+		.second-circle {
+			@extend .first-circle;
+			animation-delay: 1s;
+		}
+
+		.third-circle {
+			@extend .first-circle;
+			animation-delay: 2s;
+		}
+	}
+}

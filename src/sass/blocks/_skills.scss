@@ -4,7 +4,7 @@
 	&__items {
 		margin-top: 85px;
 		display: grid;
-		grid-template: repeat(2, 270px) / repeat(4, 270px);
+		grid-template: repeat(2, 270px) / repeat(auto-fit, 270px);
 		grid-auto-rows: 270px;
 		justify-content: center;
 		gap: 15px;

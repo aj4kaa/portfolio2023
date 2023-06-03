@@ -53,3 +53,9 @@
 		height: 3px;
 	}
 }
+
+@mixin circle($circleSize) {
+	width: $circleSize;
+	height: $circleSize;
+	border-radius: $circleSize/2;
+}
